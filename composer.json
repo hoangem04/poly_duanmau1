@@ -1,0 +1,17 @@
+{
+    "name": "hoang/app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngo Van Hoang",
+            "email": "ngovanhoang10102004@gmail.com"
+        }
+    ],
+    "require": {
+        "phroute/phroute": "^2.2"
+    }
+}

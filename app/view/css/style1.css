@@ -1,0 +1,541 @@
+* {
+
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+
+.boxcenter {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+
+}
+
+.mt {
+    padding-top: 15px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 12px;
+}
+
+.ml {
+    margin-left: 15px;
+}
+
+.pl {
+    padding: 20px;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-color: gray;
+    border: 1px solid gray;
+
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: aquamarine;
+    border: 1px solid #090;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1.2vw;
+}
+
+.menu {
+    background-color: black;
+    color: #ccc;
+    border-radius: 5px;
+
+}
+
+.meu ul {
+    padding: 0 15px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.menu ul li a:hover {
+    color: #d60e0e;
+    font-size: 0.8vw;
+    text-decoration: underline;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtrai {
+    float: left;
+    width: 73%;
+}
+
+.boxtitle {
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px;
+}
+
+.boxcontent {
+
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+
+}
+
+.boxcontent2 {
+
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.boxfooter {
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.banner {
+
+    min-height: 300px;
+
+    text-align: center;
+}
+
+.banner .slide img {
+    height: 300px;
+    /* width: 650px; */
+    width: 100%;
+
+
+}
+
+.boxsp {
+    float: left;
+    width: 29%;
+    /* min-height: 300px; */
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boxsp .img {
+    min-height: 230px;
+    text-align: center;
+
+}
+
+.img img {
+    height: 150px;
+    width: 130px;
+    padding: 15px 0px 0px 0px;
+}
+
+/*box tai khoan*/
+.formtk {
+    line-height: 150%;
+
+}
+
+
+.formtk input[type="text"],
+.formtk input[type="password"],
+.formcontent input[type="text"],
+.formtk input[type="email"] {
+    width: 95%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtk input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.formtk input[type="submit"],
+.formcontent input[type="submit"],
+.formtk input[type="reset"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.formtk input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.formtk li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.formtk li a:hover {
+    color: #093;
+    text-decoration: underline;
+}
+
+/*Danh muc*/
+.menudoc ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+
+}
+
+.menudoc ul li:hover {
+    background-color: #ccc;
+}
+
+.searchbox input[type="text"] {
+    /* width: 55%;  */
+    /*neu co submit*/
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.searchbox input[type="submit"] {
+
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.searchbox input[placeholder="tu khoa tim kiem"] {
+    color: rgb(19, 150, 19);
+    opacity: 0.8;
+}
+
+/*top 10sp*/
+.top10:hover {
+    background-color: #cbc3c3;
+}
+
+.top10 img {
+    margin: 5px;
+    width: 20%;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.top10 a {
+
+    color: #666;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.top10 a:hover {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 700;
+    line-height: 30px;
+    line-height: 40px;
+}
+
+.content img {
+    margin: 5px;
+    width: 20%;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.content a {
+    color: #666;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+/*Trang admin*/
+.headerAdmin {
+    background-color: green;
+    border: 1px solid #ccc;
+    padding: 0px 20px;
+    color: yellow;
+    border-radius: 5px;
+
+}
+
+.headerAdmin h1 {
+    font-size: 2vw;
+}
+
+.formtitle {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 0px 20px;
+    color: #666;
+    border-radius: 5px;
+}
+
+.formcontent {
+    padding: 20px 0px;
+
+}
+
+
+/*Danh sach loai hang*/
+
+
+.formdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+    /*lam mat di khoang trang giua cac cot trong table*/
+}
+
+.formdsloai table th {
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+/* .formdsloai table th:nth-child(1){
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(7){
+    width: 40%;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+} */
+
+.formdsloai table td {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+
+
+}
+
+.formdsloai table td:nth-child(7) {
+    width: 15%;
+
+    text-align: center;
+
+}
+
+.formdsloai table td:nth-child(9) {
+    width: 20%;
+
+    text-align: center;
+
+}
+
+.spadmin table th:nth-child(8) {
+    width: 15%;
+    background-color: #ccc;
+}
+
+*/
+/* chi tiet san pham*/
+
+
+
+.anh .thongtin li {
+
+    margin-left: 15px;
+    padding: 10px 0px;
+}
+
+.anh .mua {
+    margin-left: 15px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ctsp img {
+    width: 250px;
+
+    margin: 10px;
+
+}
+
+.ctsp p {
+    padding: 0;
+}
+
+/*Gio hnag*/
+
+.giohang table td:nth-child(9) {
+    width: 100%;
+    text-align: center;
+}
+
+.giohang table td:nth-child(10) {
+
+    /* display: inline-flex; */
+    text-align: center;
+}
+
+.themgiohang input[type="submit"],
+.themgiohang input[type="button"] {
+    border: 0;
+    background-color: gray;
+    font-size: 15px;
+}
+
+.themgiohang input[type="submit"]:hover,
+.themgiohang input[type="button"]:hover {
+
+    color: rgb(0, 0, 0);
+}
+
+.bill table td {
+    padding-right: 40px;
+}
+
+/*lien he*/
+
+.lh input[type="text"],
+
+
+.lh input[type="email"] {
+
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 1px solid #ccc;
+}
+
+button {
+    line-height: 20px;
+    width: 100%;
+    cursor: pointer;
+    ;
+}
+
+.gt {
+    padding: 20px 5px;
+    font-size: 20px;
+    letter-spacing: 0.7;
+}
+
+.search {
+
+    margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+    width: 60%;
+    height: 20px;
+}
+
+.search input[type="submit"] {
+    height: 25px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mua {
+    background: gray;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.mua a {
+    text-decoration: none;
+    color: white;
+}
+
+.mua a:hover {
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+}
